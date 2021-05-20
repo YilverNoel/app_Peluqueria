@@ -22,7 +22,7 @@
                 <?= $_SESSION['message']?>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            <?php session_unset();}?>
+            <?php }?>
             <div class="card card-body">
                 <form action="save.php" method="POST">
                     <div class="form-group mb-4">
